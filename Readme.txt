@@ -20,3 +20,10 @@ Ej :
 Scrip final: 
 
 ./spark-submit --master spark://MBPdeLucas880.fibertel.com.ar:7077 --conf spark.executor.memory=4g main.py "~/documents/projectos_data/ecommerce-cosmetic-shop/*.csv"  "/documents/projectos_data/resultados-pyspark/ecommerce-cosmetic-shop"
+
+Submit esta en BIN  Y NO en SBIN
+
+Scrip final_ruta: 
+
+/Users/lucasmorrone/spark/bin/spark-submit --master  spark://MBPdeLucas880.fibertel.com.ar:7077 ~/Documents/Projectos_data/ecommerce-cosmetic-shop/app2.py
+

@@ -1,7 +1,7 @@
 import sys
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.getOrCreate()
+spark = SparkSession.builder.appName('main.py').getOrCreate()
 
 df = spark.read.options(header='True', inferSchema='True').csv(sys.argv[1])
 
